@@ -27,18 +27,18 @@ module.exports = appInfo => {
     // 多数据库配置
     clients: {
       // 本地数据库
-      localDatabase: {
-        // host
-        host: 'localhost',
-        // 端口号
-        port: '3306',
-        // 用户名
-        user: 'root',
-        // 密码
-        password: 'root',
-        // 数据库名
-        database: 'apple',
-      },
+      // localDatabase: {
+      //   // host
+      //   host: 'localhost',
+      //   // 端口号
+      //   port: '3306',
+      //   // 用户名
+      //   user: 'root',
+      //   // 密码
+      //   password: 'root',
+      //   // 数据库名
+      //   database: 'apple',
+      // },
       // 阿里云服务器数据库
       aliDatabaseWeb: {
         // host
