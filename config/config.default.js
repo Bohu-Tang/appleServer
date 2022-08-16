@@ -50,7 +50,7 @@ module.exports = appInfo => {
         // 密码
         password: 'root2019',
         // 数据库名
-        database: 'web',
+        database: 'apple',
       },
     },
     // 所有数据库配置的默认值
