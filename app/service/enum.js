@@ -9,6 +9,13 @@ class EnumService extends Service {
       });
     return res;
   }
+  async insertAppleType(param){
+    const res = await this.app.mysql.get('aliDatabaseWeb').insert('appletype',{
+      name: param.name,
+      code: param.code
+    })
+    return res
+  }
 }
 
 module.exports = EnumService;

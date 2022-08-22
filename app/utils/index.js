@@ -1,14 +1,14 @@
 function singal(data, type, msg) {
     if (type) {
         return {
-            status: type,
             data: data,
+            status: type,
             msg: msg ? msg : type
         }
     } else {
         return {
-            status: 'success',
             data: data,
+            status: 'success',
             msg: ''
         }
     }
