@@ -9,4 +9,5 @@ module.exports = app => {
   router.get('/appleType', controller.enum.appleType);
   router.post('/login', controller.login.login);
   router.post('/insertAppleType', controller.enum.insertAppleType)
+  router.post('/delEnum', controller.enum.delEnum)
 };

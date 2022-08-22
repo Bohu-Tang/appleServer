@@ -16,6 +16,13 @@ class EnumService extends Service {
     })
     return res
   }
+
+  async delEnum(id){
+    const res = await this.app.mysql.get('aliDatabaseWeb').delete('appletype',{
+      id: id
+    })
+    return res
+  }
 }
 
 module.exports = EnumService;
